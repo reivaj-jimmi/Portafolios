@@ -1,0 +1,174 @@
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: transparent;
+  color: #00ff88;
+}
+
+/* NAVBAR */
+nav {
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 1rem;
+  text-align: center;
+}
+
+nav a {
+  color: #00ff88;
+  text-decoration: none;
+  margin: 0 1rem;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+/* SECCIONES */
+section {
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px #00ff88;
+}
+
+h1, h2, h3 {
+  margin-top: 0;
+  color: #00ff88;
+}
+
+/* PROYECTOS */
+.proyecto {
+  margin-bottom: 1.5rem;
+}
+
+.boton {
+  background-color: #00ff88;
+  color: #000;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.boton:hover {
+  background-color: #00cc66;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-top: 2px solid #00ff88;
+}
+
+/* ICONOS SOCIALES */
+.social-icon {
+  font-size: 2rem;
+  margin: 0 10px;
+  color: #00ff88;
+  transition: transform 0.2s, color 0.2s;
+}
+
+.social-icon:hover {
+  color: #00cc66;
+  transform: scale(1.2);
+}
+
+/* BOTONES CONTACTO */
+.boton-contacto {
+  color: #00ff88;
+  font-weight: bold;
+  text-decoration: none;
+  border: 1px solid #00ff88;
+  padding: 4px 10px;
+  border-radius: 6px;
+  margin-left: 5px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.boton-contacto:hover {
+  background-color: #00ff88;
+  color: #000;
+}
+
+/* REDES */
+.redes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.icono-red {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #00ff88;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #00ff88;
+  padding: 6px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.icono-red i {
+  font-size: 1.2rem;
+}
+
+.icono-red:hover {
+  background-color: #00ff88;
+  color: #000;
+}
+
+/* DATOS PERSONALES */
+.datos-personales {
+  background-color: rgba(0, 255, 0, 0.1);
+  border: 1px solid #00ff99;
+  padding: 15px;
+  margin-top: 10px;
+  max-width: 400px;
+  color: #00ff99;
+  font-size: 0.95em;
+}
+
+.datos-personales a {
+  color: #00ff99;
+  text-decoration: underline;
+}
+
+/* TARJETAS DE SERVICIOS */
+.card.bg-dark {
+  background-color: rgba(0, 0, 0, 0.85) !important;
+  border-color: #00ff88 !important;
+  color: #00ff88;
+}
+
+.card .card-title {
+  color: #00ff88;
+}
+
+.card .card-text {
+  color: #00ffcc;
+}
